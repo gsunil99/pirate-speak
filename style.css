@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+:root{
+    --primary: #27272a;
+    --text_color: #fafaf9;
+    --width-break: 600px;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: var(--text_color);
+    margin: 0;
+}
+nav{
+    text-align: center;
+    background-color: var(--primary);
+}
+main {
+    margin: auto;
+    padding: 1rem;
+    max-width: var(--width-break);
+    text-align: center;
+}
+textarea {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    height: 15vh;
+    margin-top: 2rem;
+    font-size: larger;
+    font-family: inherit;
+    text-align: center;
+    padding: 1rem;
+}
+button{
+    background-color: var(--primary);
+    border: none;
+    color:var(--text_color);
+    padding: 1rem 2rem;
+    font-size: large;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--primary);
+    text-align: center;
+}
+.filter-image {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    /* text-align: center; */
+    width: 10rem;
+    max-width: 350px;
+    border: 4px solid var(--primary);
+    box-shadow: 8px 3px 6px #888;
+}
+/* .img-fluid {
+    max-width: 100%;
+    height: auto;
+} */
+.rounded-circle {
+    border-radius: 50%!important;
+}
+/* img.rotate{
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+} */
+img {
+    transition: transform .7s ease-in-out;
+  }
+img:hover {
+transform: rotate(360deg);
+}
