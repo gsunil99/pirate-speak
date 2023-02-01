@@ -1,6 +1,6 @@
 # Pirate Speak [![GitHub stars](https://img.shields.io/github/stars/gsunil99/pirate-speak?style=social)](https://github.com/login?return_to=%2Fgsunil99%pirate-speak) ![GitHub forks](https://img.shields.io/github/forks/gsunil99/pirate-speak?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/gsunil99/pirate-speak) [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/gsunil99/pirate-speak)
 
-## Project is live at [**gsunil-pirate-speak**](https://gsunil-pirate-talk.netlify.app/)
+## Project is live at [**gsunil-pirate-speak**](https://gsunil-pirate-speak.netlify.app/)
 ## I used [**Fun translation API**](https://funtranslations.com/) to convert input text into pirate language
 ## How to run the project!
 ### - Clone the project
